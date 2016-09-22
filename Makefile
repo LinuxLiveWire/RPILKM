@@ -6,4 +6,3 @@ all:
 
 clean:
 		make -C /Store/Raspberry/linux-arm-build M=$(PWD) clean
-
