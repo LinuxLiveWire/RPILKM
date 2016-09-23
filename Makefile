@@ -1,5 +1,5 @@
 
-obj-m+=hello.o
+obj-m+=gpio_test.o
 
 all:
 		make -C /Store/Raspberry/linux-arm-build M=$(PWD) modules
